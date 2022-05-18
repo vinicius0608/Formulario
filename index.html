@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="#">
+            <fieldset>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite o nome" >
+            </fieldset>
+    
+            <br>
+    
+            <fieldset>
+            <label for="endereco">Endereço</label>
+            <input type="text" name="endereco" id="endereco" placeholder="Digite o endereço">
+            </fieldset>
+    
+            <br>
+    
+            <fieldset>
+            <label for="data">Data de nascimento</label>
+            <input type="date" name="data" id="Data de nascimento" placeholder="Digite a data de nascimento">
+            </fieldset>
+    
+            <br>
+    
+            <fieldset>
+            <legend>Selecione o curso desejado:</legend>
+            <input type="radio" name="Curso" id="opcao1" value="desenvolvimento_sistermas">
+            <label for="opcao1">Desenvolvimento de Sistemas</label>
+            <br>
+    
+            <input type="radio" name="Curso" id="opcao2" value="quimica">
+            <label for="opcao2">Quimica</label>
+            
+            <br>
+    
+            <input type="radio" name="Curso" id="opcao3" value="design_de_sobrancelha">
+            <label for="opcao3">Administração</label>
+            </fieldset>
+    
+            <fieldset>
+            <legend>Deseja comprar uniforme?</legend>
+            <input type="checkbox" name="uniforme1" id="Uniforme" value="uniforme1">
+            <label for="uniforme1">Uniforme azul</label>
+            
+            <br>
+    
+            <input type="checkbox" name="uniforme2" id="Uniforme" value="uniforme2">
+            <label for="uniforme2">Uniforme vermelho</label>
+    
+            <br>
+    
+            <input type="checkbox" name="uniforme3" id="Uniforme" value="uniforme3">
+            <label for="uniforme3">Uniforme rosa</label>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Gênero</legend>
+                <select name="genero" id="Gênero">
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Observações</legend>
+                <textarea name="observacao" id="observacao"></textarea>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Ações</legend>
+                <button type="button" onclick="alert('Ação cancelada!')">Cancelar</button>
+                <input type="submit" value="enviar">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
